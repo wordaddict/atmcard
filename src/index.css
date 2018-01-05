@@ -1,0 +1,66 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.credit-card {
+  position: relative;
+  width: 600px;
+  height: 350px;
+  border-radius: 24px;
+  background-color: #2854A1;
+  color: #fff;
+  padding-left: 40px;
+};
+
+.name, .card-number, .first-four-digits, .expiration {
+  font-family: "Courier", monospace;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.name {
+  position: absolute;
+  bottom:20px;
+  font-size: 36px;
+}
+
+.card-number{
+  position: absolute;
+  bottom: 120px;
+  font-size: 46px;
+}
+
+.first-four-digits {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: sans-serif;
+  bottom: 100px;
+}
+
+.valid-thru {
+  position: absolute;
+  bottom: 80px;
+  left: -45px;
+  width: 30px;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.expiration {
+  position: absolute;
+  font-size: 36px;
+  left: 220px;
+  top: 220px;
+  bottom: 10px;
+}
+
+.bank-name {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 50px;
+}
